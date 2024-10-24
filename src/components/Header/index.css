@@ -1,0 +1,59 @@
+.header-logo {
+  width: 140px;
+  align-self: center;
+}
+.right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+}
+.theme-button {
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.profile {
+  width: 35px;
+  padding-right: 10px;
+  height: 25px;
+  display: block;
+}
+@media (max-width: 767px) {
+  .profile {
+    width: 35px;
+    padding-right: 10px;
+    height: 25px;
+    display: none;
+  }
+}
+.bi-sun {
+  height: 25px;
+  width: 25px;
+  color: white;
+}
+.button1 {
+  color: white;
+  padding: 4px;
+  font-family: roboto;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.popup-button-container {
+  color: yellow;
+  margin-left: 10px;
+}
+.pop {
+  color: white;
+}
+.mobile-view-container {
+  display: none;
+}
+@media (max-width: 767px) {
+  .mobile-view-container {
+    display: block;
+  }
+}

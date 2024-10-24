@@ -1,0 +1,8 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.right-container{
+  width: 70%;
+}

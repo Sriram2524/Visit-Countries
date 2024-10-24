@@ -1,0 +1,67 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 400px;
+  width: 500px;
+  box-shadow:
+    5px 0 5px -3px rgba(0, 0, 0, 0.3),
+    /* right shadow */ -5px 0 5px -3px rgba(0, 0, 0, 0.3),
+    /* left shadow */ 0 5px 5px -3px rgba(0, 0, 0, 0.3),
+    /* bottom shadow */ 0 -5px 5px -3px rgba(0, 0, 0, 0.3); /* top shadow */
+}
+.login-logo {
+  align-self: center;
+  width: 140px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.username-con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.label {
+  font-size: 12px;
+  font-family: roboto;
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: #475569;
+}
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #475569;
+  width: 90%;
+}
+.checkBoxContainer {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.label-check {
+  color: #181818;
+  padding-left: 3px;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 14px;
+}
+.error-msg {
+  color: #ff0000;
+  font-family: roboto;
+}
